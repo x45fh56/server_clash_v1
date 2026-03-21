@@ -52,36 +52,6 @@ dns:
 proxies:
 - name: FreakConfig
   type: vless
-  server: 38.180.132.206
-  port: 443
-  uuid: 11e559f8-f5b7-48be-9ab5-7fc0915569e0
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  tls: true
-  servername: google.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: MvZRXOgSBhkQB88kC6CnjiKs7pveuPMWA_TFSOvyRQ0
-    short-id: cf12caecc0
-  network: tcp
-- name: FreakConfig_2
-  type: vless
-  server: 64.188.104.168
-  port: 40721
-  uuid: bf3e8944-8d26-47de-8748-b9aa74cce974
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  tls: true
-  servername: yahoo.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: TUZgwzcTvoROSbgnqMh3WorXVMxQNIF2zsEM39FQbyk
-    short-id: df8611c07d
-  network: tcp
-- name: FreakConfig_3
-  type: vless
   server: 51.158.206.98
   port: 23576
   uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
@@ -96,54 +66,7 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   network: tcp
-- name: FreakConfig_4
-  type: vless
-  server: download.lastilhame.monster
-  port: 443
-  uuid: a8da758c-510d-4827-83cf-2f2b51c49c5b
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.techradar.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: WOPZy8oOnvHN21pLYobZAGa7sVp7op3q575B5BaFxkU
-    short-id: faa900664bad
-  network: tcp
-- name: FreakConfig_5
-  type: vless
-  server: 185.162.11.223
-  port: 443
-  uuid: a7b1b295-89c0-4794-bc3b-13af6cf63312
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: sun6-21.userapi.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: htJuCzotUMp7MYP7ZEWKWT1iEuAbr5cDKoX32Ego6WE
-    short-id: edbc04c389
-  network: tcp
-- name: FreakConfig_6
-  type: vless
-  server: 144.31.17.80
-  port: 30677
-  uuid: b86c0cdc-8a02-4da4-8693-72ba27005587
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  tls: true
-  servername: google.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 2UqLjQFhlvLcY7VzaKRotIDQFOgAJe1dYD1njigp9wk
-    short-id: '47595474'
-  network: tcp
-- name: FreakConfig_7
+- name: FreakConfig_2
   type: vless
   server: 4.cdnconn.com
   port: 23335
@@ -159,83 +82,23 @@ proxies:
     public-key: 7Gi8eiUU9TIVbGuvSU16gl5-Aqt7tcCSB9x6CSxyvik
     short-id: 67b1e94e4dd1ef90
   network: tcp
-- name: FreakConfig_8
+- name: FreakConfig_3
   type: vless
-  server: 57.129.53.181
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  server: 199.241.32.132
+  port: 26978
+  uuid: 9042affd-0ad3-4014-adbc-e52f00891ea2
   tfo: false
   udp: true
   ip-version: ipv4-prefer
   flow: xtls-rprx-vision
   tls: true
-  servername: fuck.rkn
+  servername: tesla.com
   client-fingerprint: chrome
   reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
+    public-key: n2w4hj7Q7wN6P21LSJJwIPitfYZbwWh5a2seJHH58SE
+    short-id: 28bf
   network: tcp
-- name: FreakConfig_9
-  type: vless
-  server: 51.158.206.93
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: fuck.rkn
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  network: tcp
-- name: FreakConfig_10
-  type: vless
-  server: 45.136.126.16
-  port: 443
-  uuid: 203b0744-f943-4bba-a8d2-cab635467c46
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  tls: true
-  servername: google.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: _L_eqCCzVbP0fzWTA_AqtmlyZVscCzrJ5b2nXFnq3U0
-    short-id: d020b2
-  network: tcp
-- name: FreakConfig_11
-  type: vless
-  server: reserved.fastnodegate.com
-  port: 8443
-  uuid: f84cadb07ef447bfafeeb88a4c88a12c
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: fastnodegate.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: nJ6XfI-g6Opkwd3HTkcxJL38NmEAf_IorIYksckcZEM
-    short-id: '70'
-  network: tcp
-- name: FreakConfig_12
-  type: vless
-  server: 5.cdnconn.com
-  port: 23335
-  uuid: e384913f-8863-47b4-8858-a84b68abb4a6
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: icloud.com
-  client-fingerprint: chrome
-  network: tcp
-- name: FreakConfig_13
+- name: FreakConfig_4
   type: vless
   server: 57.129.49.1
   port: 23576
@@ -251,7 +114,54 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   network: tcp
-- name: FreakConfig_14
+- name: FreakConfig_5
+  type: vless
+  server: hk.tfree.top
+  port: 10006
+  uuid: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
+  tfo: false
+  udp: true
+  ip-version: ipv4-prefer
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: XUVBEFyxevBwoGwVlo31vXMR_wQ0h0UnhzC4jCeakkc
+    short-id: 590bdc3b6dad
+  network: tcp
+- name: FreakConfig_6
+  type: vless
+  server: 38.180.132.206
+  port: 443
+  uuid: 11e559f8-f5b7-48be-9ab5-7fc0915569e0
+  tfo: false
+  udp: true
+  ip-version: ipv4-prefer
+  tls: true
+  servername: google.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: MvZRXOgSBhkQB88kC6CnjiKs7pveuPMWA_TFSOvyRQ0
+    short-id: cf12caecc0
+  network: tcp
+- name: FreakConfig_7
+  type: vless
+  server: 51.158.206.93
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  tfo: false
+  udp: true
+  ip-version: ipv4-prefer
+  flow: xtls-rprx-vision
+  tls: true
+  servername: fuck.rkn
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  network: tcp
+- name: FreakConfig_8
   type: vless
   server: jp.cdn.stun.su
   port: 443
@@ -267,21 +177,114 @@ proxies:
     public-key: 2Q0J_OPL73qhEIYf3YBLCuY4RIBurgz5QDVchQ8e9ks
     short-id: f189d91760bb6663
   network: tcp
-- name: FreakConfig_15
+- name: FreakConfig_9
   type: vless
-  server: 199.241.32.132
-  port: 26978
-  uuid: 9042affd-0ad3-4014-adbc-e52f00891ea2
+  server: 5.cdnconn.com
+  port: 23335
+  uuid: e384913f-8863-47b4-8858-a84b68abb4a6
   tfo: false
   udp: true
   ip-version: ipv4-prefer
   flow: xtls-rprx-vision
   tls: true
-  servername: tesla.com
+  servername: icloud.com
+  client-fingerprint: chrome
+  network: tcp
+- name: FreakConfig_10
+  type: vless
+  server: us01-gmn-vlr03.tcp-reset-club.net
+  port: 22443
+  uuid: 1c4aceb6-bff7-4737-8c5d-43afb3dc350b
+  tfo: false
+  udp: true
+  ip-version: ipv4-prefer
+  flow: xtls-rprx-vision
+  tls: true
+  servername: hls-svod.itunes.apple.com
   client-fingerprint: chrome
   reality-opts:
-    public-key: n2w4hj7Q7wN6P21LSJJwIPitfYZbwWh5a2seJHH58SE
-    short-id: 28bf
+    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+    short-id: 8453e5fd9af927
+  network: tcp
+- name: FreakConfig_11
+  type: vless
+  server: download.lastilhame.monster
+  port: 443
+  uuid: a8da758c-510d-4827-83cf-2f2b51c49c5b
+  tfo: false
+  udp: true
+  ip-version: ipv4-prefer
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.techradar.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: WOPZy8oOnvHN21pLYobZAGa7sVp7op3q575B5BaFxkU
+    short-id: faa900664bad
+  network: tcp
+- name: FreakConfig_12
+  type: vless
+  server: 3.cdnconn.com
+  port: 23335
+  uuid: e384913f-8863-47b4-8858-a84b68abb4a6
+  tfo: false
+  udp: true
+  ip-version: ipv4-prefer
+  flow: xtls-rprx-vision
+  tls: true
+  servername: icloud.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 7Gi8eiUU9TIVbGuvSU16gl5-Aqt7tcCSB9x6CSxyvik
+    short-id: 67b1e94e4dd1ef90
+  network: tcp
+- name: FreakConfig_13
+  type: vless
+  server: 57.129.53.181
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  tfo: false
+  udp: true
+  ip-version: ipv4-prefer
+  flow: xtls-rprx-vision
+  tls: true
+  servername: fuck.rkn
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  network: tcp
+- name: FreakConfig_14
+  type: vless
+  server: reserved.fastnodegate.com
+  port: 8443
+  uuid: f84cadb07ef447bfafeeb88a4c88a12c
+  tfo: false
+  udp: true
+  ip-version: ipv4-prefer
+  flow: xtls-rprx-vision
+  tls: true
+  servername: fastnodegate.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: nJ6XfI-g6Opkwd3HTkcxJL38NmEAf_IorIYksckcZEM
+    short-id: '70'
+  network: tcp
+- name: FreakConfig_15
+  type: vless
+  server: 185.227.149.123
+  port: 443
+  uuid: 7c3f08c8-7b3b-4028-91d8-378a18c2b62a
+  tfo: false
+  udp: true
+  ip-version: ipv4-prefer
+  flow: xtls-rprx-vision
+  tls: true
+  servername: mycatcollection.com
+  client-fingerprint: qq
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: 6ba85179e30d4fc2
   network: tcp
 - name: FreakConfig_16
   type: vless
@@ -298,22 +301,6 @@ proxies:
   network: tcp
 - name: FreakConfig_17
   type: vless
-  server: us01-gmn-vlr03.tcp-reset-club.net
-  port: 22443
-  uuid: 1c4aceb6-bff7-4737-8c5d-43afb3dc350b
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: hls-svod.itunes.apple.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-    short-id: 8453e5fd9af927
-  network: tcp
-- name: FreakConfig_18
-  type: vless
   server: cid.wlrus.lol
   port: 37016
   uuid: c6be0a05-6105-4c0a-8af5-3e227f10735f
@@ -327,23 +314,23 @@ proxies:
     public-key: YlwO0m3fxSkKzi0RqOadx0fDPUyDTmUEmHP97bvV7QQ
     short-id: 6d37bd51
   network: tcp
-- name: FreakConfig_19
+- name: FreakConfig_18
   type: vless
-  server: 185.227.149.123
+  server: 185.162.11.223
   port: 443
-  uuid: 7c3f08c8-7b3b-4028-91d8-378a18c2b62a
+  uuid: a7b1b295-89c0-4794-bc3b-13af6cf63312
   tfo: false
   udp: true
   ip-version: ipv4-prefer
   flow: xtls-rprx-vision
   tls: true
-  servername: mycatcollection.com
-  client-fingerprint: qq
+  servername: sun6-21.userapi.com
+  client-fingerprint: chrome
   reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: 6ba85179e30d4fc2
+    public-key: htJuCzotUMp7MYP7ZEWKWT1iEuAbr5cDKoX32Ego6WE
+    short-id: edbc04c389
   network: tcp
-- name: FreakConfig_20
+- name: FreakConfig_19
   type: vless
   server: kz01-vlr01.tcp-reset-club.net
   port: 443
@@ -359,37 +346,50 @@ proxies:
     public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
     short-id: 8453e5fd9af927
   network: tcp
-- name: FreakConfig_21
+- name: FreakConfig_20
   type: vless
-  server: hk.tfree.top
-  port: 10006
-  uuid: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
+  server: 144.31.17.80
+  port: 30677
+  uuid: b86c0cdc-8a02-4da4-8693-72ba27005587
   tfo: false
   udp: true
   ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
   tls: true
-  servername: www.cloudflare.com
+  servername: google.com
   client-fingerprint: chrome
   reality-opts:
-    public-key: XUVBEFyxevBwoGwVlo31vXMR_wQ0h0UnhzC4jCeakkc
-    short-id: 590bdc3b6dad
+    public-key: 2UqLjQFhlvLcY7VzaKRotIDQFOgAJe1dYD1njigp9wk
+    short-id: '47595474'
+  network: tcp
+- name: FreakConfig_21
+  type: vless
+  server: 64.188.104.168
+  port: 40721
+  uuid: bf3e8944-8d26-47de-8748-b9aa74cce974
+  tfo: false
+  udp: true
+  ip-version: ipv4-prefer
+  tls: true
+  servername: yahoo.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: TUZgwzcTvoROSbgnqMh3WorXVMxQNIF2zsEM39FQbyk
+    short-id: df8611c07d
   network: tcp
 - name: FreakConfig_22
   type: vless
-  server: 3.cdnconn.com
-  port: 23335
-  uuid: e384913f-8863-47b4-8858-a84b68abb4a6
+  server: 45.136.126.16
+  port: 443
+  uuid: 203b0744-f943-4bba-a8d2-cab635467c46
   tfo: false
   udp: true
   ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
   tls: true
-  servername: icloud.com
+  servername: google.com
   client-fingerprint: chrome
   reality-opts:
-    public-key: 7Gi8eiUU9TIVbGuvSU16gl5-Aqt7tcCSB9x6CSxyvik
-    short-id: 67b1e94e4dd1ef90
+    public-key: _L_eqCCzVbP0fzWTA_AqtmlyZVscCzrJ5b2nXFnq3U0
+    short-id: d020b2
   network: tcp
 - name: FreakConfig_23
   type: vless
@@ -408,22 +408,6 @@ proxies:
   network: tcp
 - name: dingyue_center
   type: vless
-  server: pq.vmjp2.yydjc.top
-  port: 443
-  uuid: c41313a3-68f9-4569-982e-4a2306665f71
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: cdn-dynmedia-1.microsoft.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: asLJREsp9L0JbURQPIhFxc6bZIgpunEOjOJeHv3YcEs
-    short-id: b0fbe0f0
-  network: tcp
-- name: dingyue_center_2
-  type: vless
   server: 2400:c620:11:47::a
   port: 6593
   uuid: 05fe60a6-9452-4ceb-b26b-4c90f3a37388
@@ -435,7 +419,7 @@ proxies:
   servername: iosapps.itunes.apple.com
   client-fingerprint: chrome
   network: tcp
-- name: dingyue_center_3
+- name: dingyue_center_2
   type: vless
   server: 216.250.96.164
   port: 26000
@@ -449,6 +433,22 @@ proxies:
   reality-opts:
     public-key: YV566KZSJfmxKb0qfAGMP5jOVPPb_q9rbK10oNZjWxc
     short-id: 2f8400e348eb
+  network: tcp
+- name: dingyue_center_3
+  type: vless
+  server: pq.vmjp2.yydjc.top
+  port: 443
+  uuid: c41313a3-68f9-4569-982e-4a2306665f71
+  tfo: false
+  udp: true
+  ip-version: ipv4-prefer
+  flow: xtls-rprx-vision
+  tls: true
+  servername: cdn-dynmedia-1.microsoft.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: asLJREsp9L0JbURQPIhFxc6bZIgpunEOjOJeHv3YcEs
+    short-id: b0fbe0f0
   network: tcp
 - name: new_mtproxi2
   type: vless
@@ -468,176 +468,7 @@ proxies:
   network: tcp
 - name: oneclickvpnkeys
   type: vless
-  server: 144.31.234.125
-  port: 443
-  uuid: 1501076a-e6de-4b28-aa17-524e7ac747fb
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: ads.x5.ru
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: IF1iDd3XqdfMBlwSpBBS-GREC-pti_C8Hs4wWcFYUkw
-    short-id: 3fe43f2880aa68fa
-  network: tcp
-- name: oneclickvpnkeys_2
-  type: vless
-  server: 85.215.149.151
-  port: 43881
-  uuid: f6eb5903-35ae-42d0-b60a-9e01e51e6d99
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: amazon.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 0OjbaFdJ3LVEpRBR4dfX2dnZK5ZdBGK58lKbvPaABg8
-    short-id: 6b7294d7b5ec
-  network: tcp
-- name: oneclickvpnkeys_3
-  type: vless
-  server: 144.31.118.172
-  port: 443
-  uuid: 7ae6bfed-e50a-46d6-84fd-904d4fe7679b
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: sun6-22.userapi.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: Q7-qj-XTTDEiQ5viSWBzMVhXgIUevGlwpkmJ42U68g4
-    short-id: 7ce9b3db85b9
-  network: tcp
-- name: oneclickvpnkeys_4
-  type: vless
-  server: 104.167.197.59
-  port: 23335
-  uuid: e384913f-8863-47b4-8858-a84b68abb4a6
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: icloud.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 7Gi8eiUU9TIVbGuvSU16gl5-Aqt7tcCSB9x6CSxyvik
-    short-id: 67b1e94e4dd1ef90
-  network: tcp
-- name: oneclickvpnkeys_5
-  type: vless
-  server: 144.31.215.150
-  port: 40015
-  uuid: cbf3ca50-a3ca-45b4-9e4f-e7c5499287a1
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: github.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 6m8o6kkFR2sDrnnEblmlb0y2qqmj7tvG89-JJ3IbWC0
-    short-id: cd
-  network: tcp
-- name: oneclickvpnkeys_6
-  type: vless
-  server: us1.axinode.sbs
-  port: 10965
-  uuid: d1209ffb-c159-48d5-b40d-542ce11fc768
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: deepl.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: lHxeD2nYtDb1V7JseV-sUTEuqH6_jie7U_iOARX7cT0
-    short-id: 9f3a7c6d2e8b41af
-  network: tcp
-- name: oneclickvpnkeys_7
-  type: vless
-  server: 138.124.186.80
-  port: 443
-  uuid: e346f220-4ca4-4f69-a66b-52e992b3b625
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.fh-aachen.de
-  client-fingerprint: chrome
-  network: tcp
-- name: oneclickvpnkeys_8
-  type: vless
-  server: 3.fr.vles.space
-  port: 23151
-  uuid: 7f37b28b-cfcb-4c2a-ae41-8f2ddc9325dd
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: cms-res-web.online.sberbank.ru
-  client-fingerprint: chrome
-  network: tcp
-- name: oneclickvpnkeys_9
-  type: vless
-  server: nl1.cyphervpn.pro
-  port: 443
-  uuid: f7bae22e-20ab-11f1-835c-0242ac110002
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  tls: true
-  servername: nl1.cyphervpn.pro
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: YW-C1ihJAmuzFtvNLUggNlEh86DQm8jvfrJ-wMj7XQY
-    short-id: 5bfa0c
-  network: tcp
-- name: oneclickvpnkeys_10
-  type: vless
-  server: any146.harknmav.fun
-  port: 443
-  uuid: a0a70922-a539-4188-9273-ceef2131af36
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: max.ru
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: kJjBctvtWFumneiKDb1sY0O3smgPw1PFkB0M9_I3TiY
-    short-id: a33e8ffc0f41ffc1
-  network: tcp
-- name: oneclickvpnkeys_11
-  type: vless
-  server: 188.225.56.173
-  port: 443
-  uuid: d563d4ae-99f3-468d-9b9f-d579288dfd29
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: eh.vk.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 8_eCxkrzPtoxZKM05euCs664cL_knpqvbr-KTlnHVmw
-    short-id: 17a729f0cd30b6a7
-  network: tcp
-- name: oneclickvpnkeys_12
-  type: vless
-  server: 109.120.180.65
+  server: 138.124.104.221
   port: 443
   uuid: fd37be2f-f8d1-47de-97e8-13c28107d31e
   tfo: false
@@ -645,1138 +476,13 @@ proxies:
   ip-version: ipv4-prefer
   flow: xtls-rprx-vision
   tls: true
-  servername: yandex.ru
+  servername: pol2.frostbot.ru
   client-fingerprint: chrome
   reality-opts:
-    public-key: SHIYN7zN9aFVxwKK-bIvDbhUgtHvlBhDi1qSl2sWwRw
-    short-id: e7
+    public-key: iCY6H8CpnIfqmIkEABduJEAeJrnYS089R1-jKEyVp3w
+    short-id: e043995937
   network: tcp
-- name: oneclickvpnkeys_13
-  type: vless
-  server: srv4.ezcon24.online
-  port: 8443
-  uuid: 217e8d75-528f-4198-8217-ae2885ac9dba
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: apple.com
-  client-fingerprint: chrome
-  network: tcp
-- name: oneclickvpnkeys_14
-  type: vless
-  server: 81.200.148.23
-  port: 443
-  uuid: 57066b5c-0631-4d1c-874d-09459bf32112
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: io.ozone.ru
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: y41_p7YjlELaqUgieKxPbHAuyK5GzSTBPDJH-bCmz3Q
-    short-id: cc11c81d1af1a13e
-  network: tcp
-- name: oneclickvpnkeys_15
-  type: vless
-  server: 185.132.53.177
-  port: 443
-  uuid: 5952ea01-0669-4f5e-8010-61f8abee3600
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: nla.grizzlyvpn.work
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: P70wPy3T4FVBRTLGD96E9qucETsCj0Iuf1PFquZ1-y4
-    short-id: 63c63d102d5c29c9
-  network: tcp
-- name: oneclickvpnkeys_16
-  type: vless
-  server: 212.34.142.191
-  port: 8443
-  uuid: a5e746f7-328f-4b65-a65f-e2e2a4a5b1a9
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: tradingview.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: wNcFqVd4_PkgJbfgJJeouSU6Pn_Swuce4q4Chw5T0hY
-    short-id: f7aa9e61197d3ac6
-  network: tcp
-- name: oneclickvpnkeys_17
-  type: vless
-  server: 5.188.141.186
-  port: 443
-  uuid: d232b670-a665-0bb8-8553-0e7abbfc4a87
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: ads.x5.ru
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik
-    short-id: d8c6b58bcbb0c323
-  network: tcp
-- name: oneclickvpnkeys_18
-  type: vless
-  server: 45.149.114.8
-  port: 443
-  uuid: 4f1e3b6d-1631-44bf-9a33-b298b30e1ce0
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: in-blr-2.blook.network
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 4hgbGo2EFMD_G-67IL4UrPtBri0Dh-l_SFafynnVHm8
-    short-id: dd0d7f6b
-  network: tcp
-- name: oneclickvpnkeys_19
-  type: vless
-  server: 77.92.145.207
-  port: 853
-  uuid: 0f7ee331-3a78-4341-acbb-39b9b7bd7f47
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: unfiltered.adguard-dns.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: EJKcPSl0dv7mtU26gg6tUmKPw_aDvO2AHraRgNn6B14
-    short-id: 425ba80cd1a821a8
-  network: tcp
-- name: oneclickvpnkeys_20
-  type: vless
-  server: 67.159.55.67
-  port: 50043
-  uuid: 3a152573-b272-4ac4-8208-32c4ddd1a953
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: sun9-45.userapi.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: DG904eM7xGecwV_nhjX73c-7g_fGEv8BgjbeAmTE8Bs
-    short-id: 505c94b8c65afb0a
-  network: tcp
-- name: oneclickvpnkeys_21
-  type: vless
-  server: 92.60.78.221
-  port: 443
-  uuid: 6897c181-24b1-4880-8660-e6c5c7ee13c7
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.tradingview.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: pkIWxbuPAasjatPaHnAaTnCxVj1RkDFsJEWpLUTOcWY
-    short-id: 9917d2350096
-  network: tcp
-- name: oneclickvpnkeys_22
-  type: vless
-  server: 83.222.23.81
-  port: 38065
-  uuid: 4b9063e0-3288-44e9-9aac-80fbfce323a0
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  tls: true
-  servername: yahoo.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: dSSDPTK6AHfAdRAXD9i4rzqcNIY65RxlF25UyCKdiyo
-    short-id: fa
-  network: tcp
-- name: oneclickvpnkeys_23
-  type: vless
-  server: 107.152.35.165
-  port: 48444
-  uuid: 1609d73a-aad5-4215-b25d-908e3e3412de
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: eh.vk.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: FApUbcJurXfV5Y3PG2xRycl1R7y0CxwmUU7FRgUpzG0
-    short-id: 2f19c0a1
-  network: tcp
-- name: oneclickvpnkeys_24
-  type: vless
-  server: pl.sky-vault.top
-  port: 443
-  uuid: ab1ddafb-9514-40ab-9e4b-a3878f70931d
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: pl.sky-vault.top
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: _KTsOFhGnC0W28ZqO8_FApozMp7tJ9cVBTLKLAA_OR0
-    short-id: ae64c9b46bff174a
-  network: tcp
-- name: oneclickvpnkeys_25
-  type: vless
-  server: 213.21.240.91
-  port: 443
-  uuid: 5952ea01-0669-4f5e-8010-61f8abee3600
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: swe.grizzlyvpn.work
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 5VRdrOjXKSEfzv0b-rEeYA4B9azYQYC30NZK7y3ciCk
-    short-id: 791b6fd5edbd57f2
-  network: tcp
-- name: oneclickvpnkeys_26
-  type: vless
-  server: de18.fastlanehosting.ru
-  port: 443
-  uuid: 9eec4c39-8b6a-462d-b0a4-c295d387a98f
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: sun6-22.userapi.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: Q7-qj-XTTDEiQ5viSWBzMVhXgIUevGlwpkmJ42U68g4
-    short-id: 7ce9b3db85b9
-  network: tcp
-- name: oneclickvpnkeys_27
-  type: vless
-  server: 51.158.206.98
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: fuck.rkn
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  network: tcp
-- name: oneclickvpnkeys_28
-  type: vless
-  server: nl.himikvpn.online
-  port: 443
-  uuid: f7f18360-fbdf-45b5-93f4-4e47a29e595b
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: smartcaptcha.yandexcloud.net
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: Ct3AxMhnoWsGjYtm1shMS0HTF_UoEJSeiyLT4UcAQB4
-    short-id: fbf1
-  network: tcp
-- name: oneclickvpnkeys_29
-  type: vless
-  server: 45.130.214.192
-  port: 53231
-  uuid: 4b8d8d7f-a8b4-4e44-80a9-6f13c3149b52
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  tls: true
-  servername: yahoo.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 3mRweaWR6pK4HsbEtu874rNG9qBgdOMmSsKE4RkWSmk
-    short-id: 4ffbd0f3117c6f
-  network: tcp
-- name: oneclickvpnkeys_30
-  type: vless
-  server: uk1.santexnika24.com
-  port: 443
-  uuid: 096d2cea-e1d5-4b68-ada3-6349a272ecad
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.apple.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
-    short-id: '23'
-  network: tcp
-- name: oneclickvpnkeys_31
-  type: vless
-  server: 89.208.229.143
-  port: 443
-  uuid: 148c2937-fb6d-01f4-93a8-369b1fbc9791
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: ads.x5.ru
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik
-    short-id: d8c6b58bcbb0c323
-  network: tcp
-- name: oneclickvpnkeys_32
-  type: vless
-  server: 152.89.244.143
-  port: 443
-  uuid: 6af39730-c1bf-498c-b620-2e7a30a0e033
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.nokia.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 9v7dE4CT6LPVb7wV6vByo1o42za2BEai3jS5bg7n4zM
-    short-id: 0bc73dd1f045
-  network: tcp
-- name: oneclickvpnkeys_33
-  type: vless
-  server: 82.202.159.193
-  port: 8443
-  uuid: 5729df32-b2f2-4a10-932c-fe37dfd5b6b4
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: rbc.ru
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: _CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM
-    short-id: 6419bed7fd0a2cff
-  network: tcp
-- name: oneclickvpnkeys_34
-  type: vless
-  server: fastcon-tg.harknmav.fun
-  port: 443
-  uuid: 50b95deb-6394-46c5-b88a-583e5b3ca7ee
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: max.ru
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: PGccrEdFmBaB1rQFJqM-a9jJ1pFsxhUP2sD9KTw5Oz4
-    short-id: f69d7af2d5fc5e0c
-  network: tcp
-- name: oneclickvpnkeys_35
-  type: vless
-  server: node1.telegavpn.org
-  port: 443
-  uuid: 2e04f214-3d5c-4c85-a96b-86b522414461
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: node1.telegavpn.org
-  client-fingerprint: chrome
-  network: tcp
-- name: oneclickvpnkeys_36
-  type: vless
-  server: all89.harknmav.fun
-  port: 443
-  uuid: a0a70922-a539-4188-9273-ceef2131af36
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: max.ru
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: kJjBctvtWFumneiKDb1sY0O3smgPw1PFkB0M9_I3TiY
-    short-id: a33e8ffc0f41ffc1
-  network: tcp
-- name: oneclickvpnkeys_37
-  type: vless
-  server: whitelist2.124515.xyz
-  port: 8443
-  uuid: a55a1cb4-cdb3-43db-9095-a8321ca1e9ad
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: whitelist2.124515.xyz
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: p6rBxt_9BHHS3ODfWh3gE3nnzsbVqidNUisM5rRk-n0
-    short-id: c10b9c49979ca3ad
-  network: tcp
-- name: oneclickvpnkeys_38
-  type: vless
-  server: srv13.ezcon24.online
-  port: 11444
-  uuid: 217e8d75-528f-4198-8217-ae2885ac9dba
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.sun6-21.userapi.com
-  client-fingerprint: chrome
-  network: tcp
-- name: oneclickvpnkeys_39
-  type: vless
-  server: 94.131.105.12
-  port: 8080
-  uuid: a001c9c4-ece2-4dc1-9658-cbad90fcd2e0
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  tls: true
-  servername: max.ru
-  client-fingerprint: chrome
-  network: tcp
-- name: oneclickvpnkeys_40
-  type: vless
-  server: 67.159.52.81
-  port: 443
-  uuid: a16bd0e2-ff2e-4e4c-a955-0c684255a065
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: sg.fasti.win
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: -YTGWg5DjsLDyaDfr1D83kiUK22LVcrK3yC53lqqigs
-    short-id: feedbacc
-  network: tcp
-- name: oneclickvpnkeys_41
-  type: vless
-  server: us-2.124515.xyz
-  port: 443
-  uuid: a55a1cb4-cdb3-43db-9095-a8321ca1e9ad
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: us-2.124515.xyz
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: Htrrk8RBLK56TQwymPi3IJ9s3gHna8C7NOajUn-pUCg
-    short-id: 1eeaedbc2f137a62
-  network: tcp
-- name: oneclickvpnkeys_42
-  type: vless
-  server: 45.149.115.148
-  port: 443
-  uuid: 8b648e4c-ac38-4809-951b-e1c8862b13d1
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: google.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 0pX0dvxDHHJS2uK0t_SHauP1LB65JsRD1kQp9MK9vjI
-    short-id: '96'
-  network: tcp
-- name: oneclickvpnkeys_43
-  type: vless
-  server: 64.23.143.23
-  port: 34045
-  uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  tls: true
-  servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
-    short-id: e8ab71d0
-  network: tcp
-- name: oneclickvpnkeys_44
-  type: vless
-  server: 146.185.240.14
-  port: 443
-  uuid: a0a70922-a539-4188-9273-ceef2131af36
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: max.ru
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: kJjBctvtWFumneiKDb1sY0O3smgPw1PFkB0M9_I3TiY
-    short-id: a33e8ffc0f41ffc1
-  network: tcp
-- name: oneclickvpnkeys_45
-  type: vless
-  server: 144.31.2.176
-  port: 57172
-  uuid: 0c56d165-7005-4655-8b9e-4f6888b50318
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: max.ru
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: W5ygFi8wqavEaP1uiK9ZYJXEtMT_Kc_OfcYbfj-c2Uw
-    short-id: d5b702262431
-  network: tcp
-- name: oneclickvpnkeys_46
-  type: vless
-  server: 82.41.30.190
-  port: 443
-  uuid: 0509acee-63e3-4364-95cc-21c601f059be
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: booking.com
-  client-fingerprint: chrome
-  network: tcp
-- name: oneclickvpnkeys_47
-  type: vless
-  server: fr1.cyphervpn.pro
-  port: 443
-  uuid: 3cc7c3a4-03a7-11f1-9bc0-0242ac110002
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  tls: true
-  servername: fr1.cyphervpn.pro
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: FfpoYFgT2DmVE8wpXv0ncw9YTdVduwH3qetnke0LMDU
-    short-id: 5bfa0c
-  network: tcp
-- name: oneclickvpnkeys_48
-  type: vless
-  server: 151.247.228.252
-  port: 443
-  uuid: 52b625f4-0a52-4c7b-a907-c4dd4eeb3047
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: de-1.124515.xyz
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 3EuP8uX9rTJ-qw6O1hg2KWgD1fbY73-ZfT1Q8I_Srkw
-    short-id: 693ee677b7bc4ad1
-  network: tcp
-- name: oneclickvpnkeys_49
-  type: vless
-  server: usap01.jumperservice.com
-  port: 19001
-  uuid: 4e607c90-e3cf-4e02-9d3e-5aa5a5567f71
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.icloud.com
-  client-fingerprint: chrome
-  network: tcp
-- name: oneclickvpnkeys_50
-  type: vless
-  server: 87.229.97.154
-  port: 443
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: yahoo.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  network: tcp
-- name: oneclickvpnkeys_51
-  type: vless
-  server: 5.188.142.8
-  port: 443
-  uuid: d232b670-a665-0bb8-8553-0e7abbfc4a87
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: ads.x5.ru
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik
-    short-id: d8c6b58bcbb0c323
-  network: tcp
-- name: oneclickvpnkeys_52
-  type: vless
-  server: 45.144.51.22
-  port: 443
-  uuid: 6c49485f-843c-4e96-abfe-046bc473c7b0
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: github.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: euR8poucesDF-UxANxJ7Uqg1t4cfiDtAzAQcTVhRQCE
-    short-id: 140d8b3989bf5116
-  network: tcp
-- name: oneclickvpnkeys_53
-  type: vless
-  server: 5.188.140.211
-  port: 443
-  uuid: 148c2937-fb6d-01f4-93a8-369b1fbc9791
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: ads.x5.ru
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik
-    short-id: d8c6b58bcbb0c323
-  network: tcp
-- name: oneclickvpnkeys_54
-  type: vless
-  server: bg1.cyphervpn.pro
-  port: 443
-  uuid: f7bae22e-20ab-11f1-835c-0242ac110002
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  tls: true
-  servername: bg1.cyphervpn.pro
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: mjyodFglgnFdQFt4F-b1-ckI9y5f1h9IpI5lSiOwdRQ
-    short-id: 5bfa0c
-  network: tcp
-- name: oneclickvpnkeys_55
-  type: vless
-  server: 89.208.231.188
-  port: 443
-  uuid: a0a70922-a539-4188-9273-ceef2131af36
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: max.ru
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: XM44EKjkC6U8bm_SlaAoou6DqQx61K9mScIF_WGnk2s
-    short-id: 68ec10761480dce4
-  network: tcp
-- name: oneclickvpnkeys_56
-  type: vless
-  server: 178.236.16.98
-  port: 35728
-  uuid: a00d89f6-ab7e-4e30-a5e5-54c701d62c93
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  tls: true
-  servername: yahoo.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng
-    short-id: 69a2
-  network: tcp
-- name: oneclickvpnkeys_57
-  type: vless
-  server: 109.120.189.174
-  port: 443
-  uuid: e928d85d-f223-03e8-a1d2-a56e9fbd50e0
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: ads.x5.ru
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik
-    short-id: d8c6b58bcbb0c323
-  network: tcp
-- name: oneclickvpnkeys_58
-  type: vless
-  server: am.vitalik.space
-  port: 443
-  uuid: 2478528e-ecad-4134-a7cc-878f08a76865
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: am.vitalik.space
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: lX1RtYvGvYlnn9sKgH_WDMkmhVQEoKHqTQVxrly1F34
-    short-id: bf45
-  network: tcp
-- name: oneclickvpnkeys_59
-  type: vless
-  server: 144.31.129.195
-  port: 443
-  uuid: bea7a5db-bb02-4bcd-bece-62832eb1bc94
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.vk.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: 6ba85179e30d4fc2
-  network: tcp
-- name: oneclickvpnkeys_60
-  type: vless
-  server: 178.160.229.241
-  port: 443
-  uuid: 0c56d165-7005-4655-8b9e-4f6888b50318
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: ipa.market.yandex.ru
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 8PRhLGCCDYTPM68-cJj2tpTKl-fAG0Q6Px1pq0LHtXE
-    short-id: 395aaad7
-  network: tcp
-- name: oneclickvpnkeys_61
-  type: vless
-  server: 185.125.103.147
-  port: 443
-  uuid: 21915536-afb5-4a0c-b047-fcf549d3a173
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  tls: true
-  servername: wikihow.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 1HeKf_8KDjfzXfUi9P7WBaGStMvr96TKdUbofpkwBzQ
-    short-id: 8bd29483ded126b4
-  network: tcp
-- name: oneclickvpnkeys_62
-  type: vless
-  server: 80.90.188.20
-  port: 443
-  uuid: 2a8b5fd2-e35f-41e1-acff-785a0d782cb8
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: rutube.ru
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: n0X8cA7Ndd42e8dYC8OVWm8qniP_dxjy7GeY8LWNEjQ
-    short-id: 6f822eda1c375660
-  network: tcp
-- name: oneclickvpnkeys_63
-  type: vless
-  server: ru-bridge.atlanta-internet.ru
-  port: 8443
-  uuid: 7478ff88-1354-4143-96ce-6c8059273ef0
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: static.rutube.ru
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: cjM-gNYIiNglmuM7AUymiDT6InmwdtWoSUeeMEONj0w
-    short-id: aaaaaaaa
-  network: tcp
-- name: oneclickvpnkeys_64
-  type: vless
-  server: jp1.cyphervpn.pro
-  port: 443
-  uuid: f7bae22e-20ab-11f1-835c-0242ac110002
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  tls: true
-  servername: jp1.cyphervpn.pro
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: rjE8nekciQ8vkzooBJVwOIqV5tMS0soqdq1AysukY2Q
-    short-id: 5bfa0c
-  network: tcp
-- name: oneclickvpnkeys_65
-  type: vless
-  server: 87.120.216.5
-  port: 443
-  uuid: 9bef38a5-31a7-4e36-af48-01697fae00a2
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: de6.krasivogame.ru
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
-    short-id: 868419504747f6de
-  network: tcp
-- name: oneclickvpnkeys_66
-  type: vless
-  server: sg-sin-2.blook.network
-  port: 443
-  uuid: 590527eb-9d06-4e99-a82f-80fd3df7b1d1
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: sg-sin-2.blook.network
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: eLJZDr57FFoNrBKhF3Lx5aZBoqc_1sVRrPMZLgy3Kgk
-    short-id: a0be6214
-  network: tcp
-- name: oneclickvpnkeys_67
-  type: vless
-  server: 94.232.247.168
-  port: 41360
-  uuid: e16a35ea-6715-4e75-9845-d20358bd0876
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  tls: true
-  servername: yahoo.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: TY6w1zP-qUFKVCAQdQT2ZEJsZBrPO4hZjZYBSS6h6DU
-    short-id: 1aab45
-  network: tcp
-- name: oneclickvpnkeys_68
-  type: vless
-  server: 5.188.140.109
-  port: 443
-  uuid: f4ab40c6-3f49-0bb8-83ac-24362c278c06
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: ads.x5.ru
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik
-    short-id: d8c6b58bcbb0c323
-  network: tcp
-- name: oneclickvpnkeys_69
-  type: vless
-  server: 109.120.191.26
-  port: 443
-  uuid: 53bd9d49-12ce-4160-84d4-c4b865e56e98
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: max.ru
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 5go6uoAoJA87P0_LWEmKxnmmseOeA4cBb-N2ck4ZTko
-    short-id: b4d3fe99d706
-  network: tcp
-- name: oneclickvpnkeys_70
-  type: vless
-  server: 31.129.22.64
-  port: 47910
-  uuid: f651b25b-0a6a-4954-910f-7c07a1f6f664
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  tls: true
-  servername: yandex.ru
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: UfNUyUPOiqRvjHvk4d5M1x8MTzYxDzb810fGH9CB_kQ
-    short-id: d194cf18101d98de
-  network: tcp
-- name: oneclickvpnkeys_71
-  type: vless
-  server: 176.98.178.184
-  port: 443
-  uuid: 2563b829-866c-4c0f-8270-a91cffbfe852
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  tls: true
-  servername: www.vk.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: d-XqNbiYbaZbxNUrIoikQmrO4tnE_CByJ53pN-VT10I
-    short-id: c5765518
-  network: tcp
-- name: oneclickvpnkeys_72
-  type: vless
-  server: de1.cyphervpn.pro
-  port: 443
-  uuid: f7bae22e-20ab-11f1-835c-0242ac110002
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  tls: true
-  servername: de1.cyphervpn.pro
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: ouxkHUnIU-Km_w7rq0F_m9CWc3mFDSbaGszGryxiJwI
-    short-id: 5bfa0c
-  network: tcp
-- name: oneclickvpnkeys_73
-  type: vless
-  server: 89.149.243.207
-  port: 443
-  uuid: 6e342451-814c-4f51-803c-59107f0540f2
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.apple.com
-  client-fingerprint: chrome
-  network: tcp
-- name: oneclickvpnkeys_74
-  type: vless
-  server: 90.156.255.198
-  port: 51114
-  uuid: 8b575b35-3c7c-42b0-ac80-2aa6b0d7717c
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  tls: true
-  servername: yahoo.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: lf7NJGZAcj3b-YdbsmD6oEISr0dZRjp_gM8ZhLHwb0U
-    short-id: 772e
-  network: tcp
-- name: oneclickvpnkeys_75
-  type: vless
-  server: 129.212.143.33
-  port: 19001
-  uuid: 12eac926-c4ec-4040-8fb8-f316e9fc0fd6
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.speedtest.net
-  client-fingerprint: chrome
-  network: tcp
-- name: oneclickvpnkeys_76
-  type: vless
-  server: 185.153.181.154
-  port: 443
-  uuid: f7bae22e-20ab-11f1-835c-0242ac110002
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  tls: true
-  servername: fi1.cyphervpn.pro
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: z_mZq7riCGYKcTsXGCFX3KyhLL5PYgG3ydZ8_wM_ZkU
-    short-id: 5bfa0c
-  network: tcp
-- name: oneclickvpnkeys_77
-  type: vless
-  server: pl-1.124515.xyz
-  port: 443
-  uuid: 52b625f4-0a52-4c7b-a907-c4dd4eeb3047
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: pl-1.124515.xyz
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: ZzM2TvnaI88FCpsA_ZpPLTgGJ6WSO3QSbIu2oRCdNxQ
-    short-id: 32f380ff402a43ae
-  network: tcp
-- name: oneclickvpnkeys_78
-  type: vless
-  server: 45.83.129.31
-  port: 443
-  uuid: 295ed7cc-3dee-4985-a81e-ecc2b741a1f1
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.microsoft.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: mJwq_1b4cJxWmLmeCh-9pmxMIFNUbZ7eayDZXpiA4Qo
-    short-id: 61e6e3b8
-  network: tcp
-- name: oneclickvpnkeys_79
-  type: vless
-  server: cdn-nl-cf.barryvpn.com
-  port: 8443
-  uuid: 6cabb434-f480-478a-9586-a5667167eeb1
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: images.apple.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: tZ-tscsitfHIe63_9FAqruCnJaNFhRaKCnR8G-e4-CM
-    short-id: ae
-  network: tcp
-- name: oneclickvpnkeys_80
-  type: vless
-  server: 93.115.26.56
-  port: 22230
-  uuid: a04c351d-3efc-43de-99db-b5188cd04531
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: deepl.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: ajNtNrFThLn2_WyWnv1Zkf676_i95nCABb2gX7OlHEI
-    short-id: a9725715bf4c62ff
-  network: tcp
-- name: oneclickvpnkeys_81
-  type: vless
-  server: 51.250.100.166
-  port: 4379
-  uuid: 1dd4b4e6-6113-4c65-83a9-8df76e248b30
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: app.perekrestok.ru
-  client-fingerprint: chrome
-  network: tcp
-- name: oneclickvpnkeys_82
-  type: vless
-  server: pl2.sky-vault.top
-  port: 443
-  uuid: d02c92dc-93e0-4a0f-b2ed-65e7515a0b5e
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: pl2.sky-vault.top
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: _KTsOFhGnC0W28ZqO8_FApozMp7tJ9cVBTLKLAA_OR0
-    short-id: ae64c9b46bff174a
-  network: tcp
-- name: oneclickvpnkeys_83
-  type: vless
-  server: 193.233.49.120
-  port: 34046
-  uuid: c6210586-6fd3-405a-905e-de7fb2d68d96
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.vk.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 6qVBeg9qlJRuo_AIi2C-Dke58Z79uzvXQo38Jw5QsCw
-    short-id: de636ea175ff8ccc
-  network: tcp
-- name: oneclickvpnkeys_84
-  type: vless
-  server: 77.73.232.61
-  port: 19747
-  uuid: 2a9ed01e-5455-44b4-a66a-76ee8165f0ac
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  tls: true
-  servername: yahoo.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: ZO9dTeg1slvTXgVsBsaJ1BDvz_YUImTLJjbHs-GdVyM
-    short-id: '2001'
-  network: tcp
-- name: oneclickvpnkeys_85
-  type: vless
-  server: most-tr.harknmav.fun
-  port: 443
-  uuid: a0a70922-a539-4188-9273-ceef2131af36
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: ads.x5.ru
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: zbYv3t9VgzBeh9kTydhdi7u9niwh-_LHa4xYc9Zl_1U
-    short-id: 2e752b0d4d15e0f9
-  network: tcp
-- name: oneclickvpnkeys_86
+- name: oneclickvpnkeys_2
   type: vless
   server: node-de1.melonpanel.ir
   port: 8443
@@ -1792,106 +498,129 @@ proxies:
     public-key: Z6QEOugutnMCkDshhYng_x283HVcTcV8nrr4zDxghhI
     short-id: b0dcc7de8e60bdb2
   network: tcp
-- name: oneclickvpnkeys_87
+- name: oneclickvpnkeys_3
   type: vless
-  server: pass.enigmabot.ru
+  server: 94.232.247.168
+  port: 41360
+  uuid: e16a35ea-6715-4e75-9845-d20358bd0876
+  tfo: false
+  udp: true
+  ip-version: ipv4-prefer
+  tls: true
+  servername: yahoo.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: TY6w1zP-qUFKVCAQdQT2ZEJsZBrPO4hZjZYBSS6h6DU
+    short-id: 1aab45
+  network: tcp
+- name: oneclickvpnkeys_4
+  type: vless
+  server: node-nl-main.amnesia.pw
   port: 443
-  uuid: fd37be2f-f8d1-47de-97e8-13c28107d31e
+  uuid: d8e5386f-5b56-4a5a-87e2-26fecd735356
   tfo: false
   udp: true
   ip-version: ipv4-prefer
   flow: xtls-rprx-vision
   tls: true
-  servername: yandex.ru
+  servername: ozon.ru
   client-fingerprint: chrome
-  reality-opts:
-    public-key: SHIYN7zN9aFVxwKK-bIvDbhUgtHvlBhDi1qSl2sWwRw
-    short-id: e7
   network: tcp
-- name: oneclickvpnkeys_88
+- name: oneclickvpnkeys_5
   type: vless
-  server: 47.245.38.111
-  port: 443
-  uuid: 86b414b6-966e-4f6d-ab16-32049ef732d3
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  tls: true
-  servername: www.autodesk.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: y167aJhpgWWjltY4UCir_uu8Mj__Hkc1W4etD0QXYH4
-    short-id: 860705e716cbe6ed
-  network: tcp
-- name: oneclickvpnkeys_89
-  type: vless
-  server: 45.136.126.26
-  port: 443
-  uuid: 9c42aa2d-3e57-4ce1-ba85-0b11f685dd6b
+  server: 67.159.55.67
+  port: 50043
+  uuid: 3a152573-b272-4ac4-8208-32c4ddd1a953
   tfo: false
   udp: true
   ip-version: ipv4-prefer
   flow: xtls-rprx-vision
   tls: true
-  servername: max.ru
+  servername: sun9-45.userapi.com
   client-fingerprint: chrome
   reality-opts:
-    public-key: pRvemrnDzUPhjXIYQC933GlpoomcZI9LwL4DPW5-aQc
-    short-id: b93d114f6a85e9
+    public-key: DG904eM7xGecwV_nhjX73c-7g_fGEv8BgjbeAmTE8Bs
+    short-id: 505c94b8c65afb0a
   network: tcp
-- name: oneclickvpnkeys_90
+- name: oneclickvpnkeys_6
   type: vless
-  server: 89.23.117.204
+  server: 89.149.243.213
   port: 443
-  uuid: fd37be2f-f8d1-47de-97e8-13c28107d31e
+  uuid: b10aaf79-0721-454b-9d82-6418413561b8
   tfo: false
   udp: true
   ip-version: ipv4-prefer
   flow: xtls-rprx-vision
   tls: true
-  servername: spb2.frostbot.ru
+  servername: www.apple.com
   client-fingerprint: chrome
-  reality-opts:
-    public-key: j0Ddyp0DuJqPWWLuDkUzbf3sxY63aSVUOYMMuvBNsgQ
-    short-id: e2117a
   network: tcp
-- name: oneclickvpnkeys_91
+- name: oneclickvpnkeys_7
   type: vless
-  server: ru.milas.click
-  port: 443
-  uuid: 8f353db6-64e2-4e6e-82b0-9288f10ce90c
+  server: 51.158.206.103
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
   tfo: false
   udp: true
   ip-version: ipv4-prefer
   flow: xtls-rprx-vision
   tls: true
-  servername: ru.milas.click
+  servername: fuck.rkn
   client-fingerprint: chrome
   reality-opts:
-    public-key: DoZSKLwNQjogQMlE7oEEuB8TqpNa-umXzG-2Q6dTTEY
-    short-id: 4fa44664f6a566d3
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
   network: tcp
-- name: oneclickvpnkeys_92
+- name: oneclickvpnkeys_8
   type: vless
-  server: us.darknet.run
+  server: 138.124.75.6
   port: 443
-  uuid: b73855fb-2ec9-4039-935a-a206dda339f8
+  uuid: 5952ea01-0669-4f5e-8010-61f8abee3600
   tfo: false
   udp: true
   ip-version: ipv4-prefer
   flow: xtls-rprx-vision
   tls: true
-  servername: us.darknet.run
+  servername: fi.grizzlyvpn.work
   client-fingerprint: chrome
   reality-opts:
-    public-key: TgnKibgLcTTCrTPHA-70mp--ruN1SlbTCecnEbJbTjY
-    short-id: a1b323d5
+    public-key: c3W9GpyDD3dKT_KPBn6X2eH4nvTX016JqmGRSGFrSF8
+    short-id: 1644d7de8a2d71bd
   network: tcp
-- name: oneclickvpnkeys_93
+- name: oneclickvpnkeys_9
   type: vless
-  server: staging.lastilhame.monster
+  server: node-nl-main.amnesia.pw
   port: 443
-  uuid: 2ba7f500-017b-4891-87a0-e4e62a4ad52d
+  uuid: d8e5386f-5b56-4a5a-87e2-26fecd735356
+  tfo: false
+  udp: true
+  ip-version: ipv4-prefer
+  flow: xtls-rprx-vision
+  tls: true
+  servername: ozon.ru
+  client-fingerprint: chrome
+  network: tcp
+- name: oneclickvpnkeys_10
+  type: vless
+  server: 151.245.195.159
+  port: 443
+  uuid: 19cb2ba5-d074-42d6-8400-6d9183514f48
+  tfo: false
+  udp: true
+  ip-version: ipv4-prefer
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.google.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: nPcUKydxoRI66O3tT9O4QCZpLjOBvkGsiXG7pDX1BBw
+    short-id: 6ba85179e30d4fc2
+  network: tcp
+- name: oneclickvpnkeys_11
+  type: vless
+  server: 45.83.129.31
+  port: 443
+  uuid: 295ed7cc-3dee-4985-a81e-ecc2b741a1f1
   tfo: false
   udp: true
   ip-version: ipv4-prefer
@@ -1900,10 +629,250 @@ proxies:
   servername: www.microsoft.com
   client-fingerprint: chrome
   reality-opts:
-    public-key: FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg
-    short-id: 9409f73c2fd7
+    public-key: mJwq_1b4cJxWmLmeCh-9pmxMIFNUbZ7eayDZXpiA4Qo
+    short-id: 61e6e3b8
   network: tcp
-- name: oneclickvpnkeys_94
+- name: oneclickvpnkeys_12
+  type: vless
+  server: 57.129.53.181
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  tfo: false
+  udp: true
+  ip-version: ipv4-prefer
+  flow: xtls-rprx-vision
+  tls: true
+  servername: fuck.rkn
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  network: tcp
+- name: oneclickvpnkeys_13
+  type: vless
+  server: 51.158.206.93
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  tfo: false
+  udp: true
+  ip-version: ipv4-prefer
+  flow: xtls-rprx-vision
+  tls: true
+  servername: fuck.rkn
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  network: tcp
+- name: oneclickvpnkeys_14
+  type: vless
+  server: srv11.ezcon24.online
+  port: 8449
+  uuid: 217e8d75-528f-4198-8217-ae2885ac9dba
+  tfo: false
+  udp: true
+  ip-version: ipv4-prefer
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.apple.com
+  client-fingerprint: chrome
+  network: tcp
+- name: oneclickvpnkeys_15
+  type: vless
+  server: 2001:bc8:32d7:302::13
+  port: 34324
+  uuid: 26c462ba-a90c-4814-9d7c-a629bc0bdb5c
+  tfo: false
+  udp: true
+  ip-version: ipv4-prefer
+  flow: xtls-rprx-vision
+  tls: true
+  servername: dash.cloudflare.com
+  client-fingerprint: chrome
+  network: tcp
+- name: oneclickvpnkeys_16
+  type: vless
+  server: 151.243.101.25
+  port: 443
+  uuid: 19cb2ba5-d074-42d6-8400-6d9183514f48
+  tfo: false
+  udp: true
+  ip-version: ipv4-prefer
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.google.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: nPcUKydxoRI66O3tT9O4QCZpLjOBvkGsiXG7pDX1BBw
+    short-id: 6ba85179e30d4fc2
+  network: tcp
+- name: oneclickvpnkeys_17
+  type: vless
+  server: 185.156.108.135
+  port: 443
+  uuid: 83124ed5-90cb-4c83-8d75-a81b5e488be0
+  tfo: false
+  udp: true
+  ip-version: ipv4-prefer
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.microsoft.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: jgpljfYxKwnlimE1pcSZffIz3JqD1cU3mUhHgz4sYnQ
+    short-id: b2497235
+  network: tcp
+- name: oneclickvpnkeys_18
+  type: vless
+  server: 138.124.186.80
+  port: 443
+  uuid: e346f220-4ca4-4f69-a66b-52e992b3b625
+  tfo: false
+  udp: true
+  ip-version: ipv4-prefer
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.fh-aachen.de
+  client-fingerprint: chrome
+  network: tcp
+- name: oneclickvpnkeys_19
+  type: vless
+  server: 67.159.52.81
+  port: 443
+  uuid: a16bd0e2-ff2e-4e4c-a955-0c684255a065
+  tfo: false
+  udp: true
+  ip-version: ipv4-prefer
+  flow: xtls-rprx-vision
+  tls: true
+  servername: sg.fasti.win
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: -YTGWg5DjsLDyaDfr1D83kiUK22LVcrK3yC53lqqigs
+    short-id: feedbacc
+  network: tcp
+- name: oneclickvpnkeys_20
+  type: vless
+  server: 45.151.106.62
+  port: 443
+  uuid: 35b9becb-2488-447c-ad69-e839f2fc13c1
+  tfo: false
+  udp: true
+  ip-version: ipv4-prefer
+  flow: xtls-rprx-vision
+  tls: true
+  servername: google.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 5vKf_Ni653huMNUl6V34EJxEGPCC0hZ6rFCPwu2Z300
+    short-id: 3ef8cdbc
+  network: tcp
+- name: oneclickvpnkeys_21
+  type: vless
+  server: 45.150.65.43
+  port: 443
+  uuid: fd37be2f-f8d1-47de-97e8-13c28107d31e
+  tfo: false
+  udp: true
+  ip-version: ipv4-prefer
+  flow: xtls-rprx-vision
+  tls: true
+  servername: us1.frostbot.ru
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: iCY6H8CpnIfqmIkEABduJEAeJrnYS089R1-jKEyVp3w
+    short-id: 5589c1
+  network: tcp
+- name: oneclickvpnkeys_22
+  type: vless
+  server: 89.124.77.85
+  port: 8443
+  uuid: 6cabb434-f480-478a-9586-a5667167eeb1
+  tfo: false
+  udp: true
+  ip-version: ipv4-prefer
+  flow: xtls-rprx-vision
+  tls: true
+  servername: images.apple.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: tZ-tscsitfHIe63_9FAqruCnJaNFhRaKCnR8G-e4-CM
+    short-id: ae
+  network: tcp
+- name: oneclickvpnkeys_23
+  type: vless
+  server: us1.axinode.sbs
+  port: 10965
+  uuid: d1209ffb-c159-48d5-b40d-542ce11fc768
+  tfo: false
+  udp: true
+  ip-version: ipv4-prefer
+  flow: xtls-rprx-vision
+  tls: true
+  servername: deepl.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: lHxeD2nYtDb1V7JseV-sUTEuqH6_jie7U_iOARX7cT0
+    short-id: 9f3a7c6d2e8b41af
+  network: tcp
+- name: oneclickvpnkeys_24
+  type: vless
+  server: 185.246.223.7
+  port: 443
+  uuid: b8147b4d-c2c5-4932-b609-6a65dc034739
+  tfo: false
+  udp: true
+  ip-version: ipv4-prefer
+  flow: xtls-rprx-vision
+  tls: true
+  servername: github.com
+  client-fingerprint: chrome
+  network: tcp
+- name: oneclickvpnkeys_25
+  type: vless
+  server: 138.124.70.90
+  port: 23151
+  uuid: 7f37b28b-cfcb-4c2a-ae41-8f2ddc9325dd
+  tfo: false
+  udp: true
+  ip-version: ipv4-prefer
+  flow: xtls-rprx-vision
+  tls: true
+  servername: cms-res-web.online.sberbank.ru
+  client-fingerprint: chrome
+  network: tcp
+- name: oneclickvpnkeys_26
+  type: vless
+  server: ny-meow.nethcloud.top
+  port: 443
+  uuid: 21915536-afb5-4a0c-b047-fcf549d3a173
+  tfo: false
+  udp: true
+  ip-version: ipv4-prefer
+  tls: true
+  servername: wikihow.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1HeKf_8KDjfzXfUi9P7WBaGStMvr96TKdUbofpkwBzQ
+    short-id: 8bd29483ded126b4
+  network: tcp
+- name: oneclickvpnkeys_27
+  type: vless
+  server: 152.53.80.40
+  port: 443
+  uuid: e6567a1e-260f-4b0e-8de3-e2e12f90e854
+  tfo: false
+  udp: true
+  ip-version: ipv4-prefer
+  flow: xtls-rprx-vision
+  tls: true
+  servername: sha.helper-internet.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE
+    short-id: ff776ff77be48b88
+  network: tcp
+- name: oneclickvpnkeys_28
   type: vless
   server: ke-1.vpnd.io
   port: 19938
@@ -1919,59 +888,275 @@ proxies:
     public-key: _nqSXF5ujl6eQd687N9Q3ClknW8BEQmI4vO2dFpS2l8
     short-id: 2adf17
   network: tcp
-- name: oneclickvpnkeys_95
+- name: oneclickvpnkeys_29
   type: vless
-  server: 104.167.196.90
+  server: 144.31.221.174
+  port: 8083
+  uuid: a487adab-0644-4f80-9643-d3036b9f17c6
+  tfo: false
+  udp: true
+  ip-version: ipv4-prefer
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.apple.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: SziXMkSTuvedEFS4DE-WY0a4Hb87Y22VW0TgE9IPDjA
+    short-id: 425ba80cd1a821a8
+  network: tcp
+- name: oneclickvpnkeys_30
+  type: vless
+  server: 57.129.53.181
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  tfo: false
+  udp: true
+  ip-version: ipv4-prefer
+  flow: xtls-rprx-vision
+  tls: true
+  servername: fuck.rkn
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  network: tcp
+- name: oneclickvpnkeys_31
+  type: vless
+  server: srv4.ezcon24.online
+  port: 8443
+  uuid: 217e8d75-528f-4198-8217-ae2885ac9dba
+  tfo: false
+  udp: true
+  ip-version: ipv4-prefer
+  flow: xtls-rprx-vision
+  tls: true
+  servername: apple.com
+  client-fingerprint: chrome
+  network: tcp
+- name: oneclickvpnkeys_32
+  type: vless
+  server: 77.92.145.192
   port: 443
-  uuid: af522cbf-cc40-4845-a5c2-dc008c9ba3b1
+  uuid: 42a7df85-0739-4760-a248-32a491abfa2a
   tfo: false
   udp: true
   ip-version: ipv4-prefer
   flow: xtls-rprx-vision
   tls: true
-  servername: web.max.ru
+  servername: hls-svod.itunes.apple.com
   client-fingerprint: chrome
   reality-opts:
-    public-key: UgpVsh7uZ0kbj_Ps8f-ZGUoDIq8TBfgx60UTxca01n0
-    short-id: a1e9d433
+    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+    short-id: e499f276e7bd6420
   network: tcp
-- name: oneclickvpnkeys_96
+- name: oneclickvpnkeys_33
   type: vless
-  server: 38.60.212.251
-  port: 29059
-  uuid: d706bf16-124a-417b-aaa0-0d6d5efd58fd
+  server: 212.34.142.191
+  port: 8443
+  uuid: a5e746f7-328f-4b65-a65f-e2e2a4a5b1a9
   tfo: false
   udp: true
   ip-version: ipv4-prefer
   flow: xtls-rprx-vision
   tls: true
-  servername: mensura.cdn-apple.com
+  servername: tradingview.com
   client-fingerprint: chrome
   reality-opts:
-    public-key: V_eMkcHXf237wGyfggMHHRvQqw51rW1UJPEIw_T2IE4
-    short-id: 6ba85179e30d4fc2
+    public-key: wNcFqVd4_PkgJbfgJJeouSU6Pn_Swuce4q4Chw5T0hY
+    short-id: f7aa9e61197d3ac6
   network: tcp
-- name: oneclickvpnkeys_97
+- name: oneclickvpnkeys_34
   type: vless
-  server: 144.31.1.59
+  server: 152.67.158.177
+  port: 2443
+  uuid: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
+  tfo: false
+  udp: true
+  ip-version: ipv4-prefer
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 498LE1B8NFnfagrOnGGmuh80KqgKXMKiHbgcpxRqBB0
+    short-id: 2d989d13dba1
+  network: tcp
+- name: oneclickvpnkeys_35
+  type: vless
+  server: nltw4.lckdwn.ru
+  port: 8443
+  uuid: 1c61a6c0-9bc7-4cb8-9188-6d86d5989388
+  tfo: false
+  udp: true
+  ip-version: ipv4-prefer
+  tls: true
+  servername: nltw4.lckdwn.ru
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: XEWgLksY3vnV9riMEO7AZ7HR0Ecv3HxXLFglZtcmx00
+    short-id: d5
+  network: tcp
+- name: oneclickvpnkeys_36
+  type: vless
+  server: 129.212.143.33
+  port: 19001
+  uuid: 12eac926-c4ec-4040-8fb8-f316e9fc0fd6
+  tfo: false
+  udp: true
+  ip-version: ipv4-prefer
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.speedtest.net
+  client-fingerprint: chrome
+  network: tcp
+- name: oneclickvpnkeys_37
+  type: vless
+  server: lt.lazeroe.com
   port: 443
-  uuid: ab1ddafb-9514-40ab-9e4b-a3878f70931d
+  uuid: 3fe48a33-aac8-41cd-b2db-fdeeafced0aa
   tfo: false
   udp: true
   ip-version: ipv4-prefer
   flow: xtls-rprx-vision
   tls: true
-  servername: pl.sky-vault.top
+  servername: api.vkvideo.ru
   client-fingerprint: chrome
   reality-opts:
-    public-key: _KTsOFhGnC0W28ZqO8_FApozMp7tJ9cVBTLKLAA_OR0
-    short-id: ae64c9b46bff174a
+    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
+    short-id: 868419504747f6de
   network: tcp
-- name: oneclickvpnkeys_98
+- name: oneclickvpnkeys_38
   type: vless
-  server: 150.241.73.22
-  port: 10965
-  uuid: d1209ffb-c159-48d5-b40d-542ce11fc768
+  server: 185.79.138.118
+  port: 443
+  uuid: 5952ea01-0669-4f5e-8010-61f8abee3600
+  tfo: false
+  udp: true
+  ip-version: ipv4-prefer
+  flow: xtls-rprx-vision
+  tls: true
+  servername: fi2.grizzlyvpn.work
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: rPuuq2HGz8VfN9xjDjnjoi-HgTFi-ZvY5l8Ebktuqmc
+    short-id: 7501ae7ef79c300d
+  network: tcp
+- name: oneclickvpnkeys_39
+  type: vless
+  server: 194.87.44.157
+  port: 443
+  uuid: fd37be2f-f8d1-47de-97e8-13c28107d31e
+  tfo: false
+  udp: true
+  ip-version: ipv4-prefer
+  flow: xtls-rprx-vision
+  tls: true
+  servername: nld10.frostbot.ru
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: iCY6H8CpnIfqmIkEABduJEAeJrnYS089R1-jKEyVp3w
+    short-id: bff3
+  network: tcp
+- name: oneclickvpnkeys_40
+  type: vless
+  server: ch.fasti.win
+  port: 443
+  uuid: a16bd0e2-ff2e-4e4c-a955-0c684255a065
+  tfo: false
+  udp: true
+  ip-version: ipv4-prefer
+  flow: xtls-rprx-vision
+  tls: true
+  servername: ch.fasti.win
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: -YTGWg5DjsLDyaDfr1D83kiUK22LVcrK3yC53lqqigs
+    short-id: feedbacc
+  network: tcp
+- name: oneclickvpnkeys_41
+  type: vless
+  server: nl.himikvpn.online
+  port: 443
+  uuid: f7f18360-fbdf-45b5-93f4-4e47a29e595b
+  tfo: false
+  udp: true
+  ip-version: ipv4-prefer
+  flow: xtls-rprx-vision
+  tls: true
+  servername: smartcaptcha.yandexcloud.net
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: Ct3AxMhnoWsGjYtm1shMS0HTF_UoEJSeiyLT4UcAQB4
+    short-id: fbf1
+  network: tcp
+- name: oneclickvpnkeys_42
+  type: vless
+  server: 5.182.36.90
+  port: 443
+  uuid: c7ba57bf-0418-4b66-89bb-d320b5cdd8e5
+  tfo: false
+  udp: true
+  ip-version: ipv4-prefer
+  flow: xtls-rprx-vision
+  tls: true
+  servername: store.steampowered.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: Z--Ieq3GtHx_Qtqj3NUyK5wY2foVBtlOkyzXqESeswU
+    short-id: 0c80cc39
+  network: tcp
+- name: oneclickvpnkeys_43
+  type: vless
+  server: 45.15.152.226
+  port: 443
+  uuid: fd37be2f-f8d1-47de-97e8-13c28107d31e
+  tfo: false
+  udp: true
+  ip-version: ipv4-prefer
+  flow: xtls-rprx-vision
+  tls: true
+  servername: fin2.frostbot.ru
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: iCY6H8CpnIfqmIkEABduJEAeJrnYS089R1-jKEyVp3w
+    short-id: be91008fd0a4
+  network: tcp
+- name: oneclickvpnkeys_44
+  type: vless
+  server: 144.31.12.148
+  port: 587
+  uuid: a487adab-0644-4f80-9643-d3036b9f17c6
+  tfo: false
+  udp: true
+  ip-version: ipv4-prefer
+  flow: xtls-rprx-vision
+  tls: true
+  servername: cdn.jsdelivr.net
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: EJKcPSl0dv7mtU26gg6tUmKPw_aDvO2AHraRgNn6B14
+    short-id: 425ba80cd1a821a8
+  network: tcp
+- name: oneclickvpnkeys_45
+  type: vless
+  server: 178.236.16.98
+  port: 35728
+  uuid: a00d89f6-ab7e-4e30-a5e5-54c701d62c93
+  tfo: false
+  udp: true
+  ip-version: ipv4-prefer
+  tls: true
+  servername: yahoo.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng
+    short-id: 69a2
+  network: tcp
+- name: oneclickvpnkeys_46
+  type: vless
+  server: 93.115.26.56
+  port: 22230
+  uuid: a04c351d-3efc-43de-99db-b5188cd04531
   tfo: false
   udp: true
   ip-version: ipv4-prefer
@@ -1980,40 +1165,56 @@ proxies:
   servername: deepl.com
   client-fingerprint: chrome
   reality-opts:
-    public-key: lHxeD2nYtDb1V7JseV-sUTEuqH6_jie7U_iOARX7cT0
-    short-id: 9f3a7c6d2e8b41af
+    public-key: ajNtNrFThLn2_WyWnv1Zkf676_i95nCABb2gX7OlHEI
+    short-id: a9725715bf4c62ff
+  network: tcp
+- name: oneclickvpnkeys_47
+  type: vless
+  server: 151.240.151.168
+  port: 8443
+  uuid: a55a1cb4-cdb3-43db-9095-a8321ca1e9ad
+  tfo: false
+  udp: true
+  ip-version: ipv4-prefer
+  flow: xtls-rprx-vision
+  tls: true
+  servername: whitelist2.124515.xyz
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: p6rBxt_9BHHS3ODfWh3gE3nnzsbVqidNUisM5rRk-n0
+    short-id: c10b9c49979ca3ad
   network: tcp
 - name: tv2rayrr
   type: vless
-  server: 91.220.8.177
+  server: 77.110.119.225
   port: 443
-  uuid: 0eb0019b66404203a7e07701f61bf766
+  uuid: 4819860c-0e62-4804-9c59-967e5c2bed7a
   tfo: false
   udp: true
   ip-version: ipv4-prefer
   flow: xtls-rprx-vision
   tls: true
-  servername: m.vk.com
+  servername: st.ozone.ru
   client-fingerprint: chrome
   reality-opts:
-    public-key: n0e-y_JNPYLzhJkFuhlq6-k1lgUG43cmiQXkP2Pv_wc
-    short-id: aabbccdd
+    public-key: hnec5SxCD6Os-u0FNi_YS5CML1a_oWb0niZJ1mGuFBo
+    short-id: 07e904766d29b958
   network: tcp
 - name: tv2rayrr_2
   type: vless
-  server: nl2.srv.happvpn.com
-  port: 443
-  uuid: d2de6d6d-4735-4fe3-b4b6-00a81ced69f5
+  server: 31.6.1.187
+  port: 25607
+  uuid: c8451b58-6337-4294-ba28-1a33731331a1
   tfo: false
   udp: true
   ip-version: ipv4-prefer
   flow: xtls-rprx-vision
   tls: true
-  servername: cdnjs.com
+  servername: store.steampowered.com
   client-fingerprint: chrome
   reality-opts:
-    public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
-    short-id: 4c02bbbfa833b3b6
+    public-key: j5CgrKQgkDV5bC5Y4pB0lGNupDYxklIDgge4HL1X3zE
+    short-id: '84'
   network: tcp
 - name: tv2rayrr_3
   type: vless
@@ -2033,96 +1234,52 @@ proxies:
   network: tcp
 - name: tv2rayrr_4
   type: vless
-  server: de.shvurgceo.online
-  port: 14357
-  uuid: 006f752c-42fe-41dd-a224-e2f7c48b72a9
+  server: 40.233.83.110
+  port: 26113
+  uuid: cfe032e4-1bc3-454f-9d09-301b0aea08ff
   tfo: false
   udp: true
   ip-version: ipv4-prefer
   flow: xtls-rprx-vision
   tls: true
-  servername: vk.com
-  client-fingerprint: chrome
+  servername: www.yahoo.com
+  client-fingerprint: random
   reality-opts:
-    public-key: DvKMFkm82Jkp6Jk_7pXYb0fMXq1MsLMNxDeQfcCSbEA
-    short-id: ab12cd34
+    public-key: GUcD8LK1DFNuVun5yhsqeEego_p3PF2yIdvE2KY2Nng
+    short-id: 1fbd20fd
   network: tcp
 - name: tv2rayrr_5
   type: vless
-  server: 45.134.12.47
-  port: 31203
-  uuid: 87d1f4b2-83e7-4125-8d62-5d376871fd41
+  server: 188.253.21.106
+  port: 443
+  uuid: 247a22e1-0795-4852-9bdd-a65ac1078034
   tfo: false
   udp: true
   ip-version: ipv4-prefer
   flow: xtls-rprx-vision
   tls: true
-  servername: vt-1.ozone.ru
-  client-fingerprint: random
+  servername: yahoo.com
+  client-fingerprint: firefox
   reality-opts:
-    public-key: tN1ZYDEnM0t_V59FGQSpiq56sOpDo8JZ25Epgg-Z9kg
-    short-id: ab12cd34
+    public-key: 4JvLKnuuAs4h0cQ1j_S4SAuXQQ579D7Wr1sGBjmH-Ws
+    short-id: 73d3fec4
   network: tcp
 - name: tv2rayrr_6
   type: vless
-  server: 178.239.125.31
-  port: 39735
-  uuid: 60e7e018-ee6a-48b1-9625-c4d4276935b3
+  server: 185.243.99.104
+  port: 29453
+  uuid: a9457db5-e0b8-4a86-bb33-957c99b235c0
   tfo: false
   udp: true
   ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
   tls: true
-  servername: www.yahoo.co.jp
+  servername: zhaket.com
   client-fingerprint: chrome
+  reality-opts:
+    public-key: cXsw864RT4iYYUdUe02MPtYLYjantGqOSSQjc5Y8mCY
+    short-id: 850a5cbb81
   network: tcp
 - name: tv2rayrr_7
-  type: vless
-  server: fr.soreanapanel.com
-  port: 443
-  uuid: d2cec382-c701-4d66-8891-5945ad87d8a1
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  tls: true
-  servername: tgju.org
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: liR-hmXj77ENkmMXhMnIZ1VLK9Gszaob1l_3U3O7Axs
-    short-id: 33d92e960cb19e71
-  network: tcp
-- name: tv2rayrr_8
-  type: vless
-  server: 178.236.16.98
-  port: 35728
-  uuid: a00d89f6-ab7e-4e30-a5e5-54c701d62c93
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  tls: true
-  servername: yahoo.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng
-    short-id: 69a2
-  network: tcp
-- name: tv2rayrr_9
-  type: vless
-  server: 156.229.161.107
-  port: 10001
-  uuid: 9c79aceb-4649-44ea-9698-b5e9ecf6d6da
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.icloud.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 4jNz4Bw-FZlaX-WtfAdwK0hegY28W_k8AttGd-7hZn4
-    short-id: fb2c6678
-  network: tcp
-- name: tv2rayrr_10
   type: vless
   server: 81.19.140.202
   port: 60552
@@ -2136,6 +1293,51 @@ proxies:
   reality-opts:
     public-key: QLOalXjMmrryGjcV7-jMDyWD2E7I23r9A95nqaP0Pho
     short-id: e62fec30f1a0167e
+  network: tcp
+- name: tv2rayrr_8
+  type: vless
+  server: 156.244.41.221
+  port: 443
+  uuid: 0033fda5-029e-4de3-acea-3bd45a1912e2
+  tfo: false
+  udp: true
+  ip-version: ipv4-prefer
+  flow: xtls-rprx-vision
+  tls: true
+  servername: aws.amazon.com
+  client-fingerprint: chrome
+  network: tcp
+- name: tv2rayrr_9
+  type: vless
+  server: youtube.happvpn.com
+  port: 443
+  uuid: d2de6d6d-4735-4fe3-b4b6-00a81ced69f5
+  tfo: false
+  udp: true
+  ip-version: ipv4-prefer
+  flow: xtls-rprx-vision
+  tls: true
+  servername: cdnjs.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
+    short-id: 4c02bbbfa833b3b6
+  network: tcp
+- name: tv2rayrr_10
+  type: vless
+  server: 38.180.17.232
+  port: 443
+  uuid: 96eb0aac-b747-4f3c-8c30-d2ff7ec7415c
+  tfo: false
+  udp: true
+  ip-version: ipv4-prefer
+  flow: xtls-rprx-vision
+  tls: true
+  servername: google.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: h_qOyi3Y79o7yw9WaMZY1CxtDlu4f6F1bIxqYTH11R4
+    short-id: 3e
   network: tcp
 - name: tv2rayrr_11
   type: vless
@@ -2155,24 +1357,9 @@ proxies:
   network: tcp
 - name: tv2rayrr_12
   type: vless
-  server: 185.243.99.104
-  port: 29453
-  uuid: a9457db5-e0b8-4a86-bb33-957c99b235c0
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  tls: true
-  servername: zhaket.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: cXsw864RT4iYYUdUe02MPtYLYjantGqOSSQjc5Y8mCY
-    short-id: 850a5cbb81
-  network: tcp
-- name: tv2rayrr_13
-  type: vless
-  server: 77.91.68.70
-  port: 55983
-  uuid: f667a096-5231-4cfb-8759-92bb32473139
+  server: 178.236.16.98
+  port: 35728
+  uuid: a00d89f6-ab7e-4e30-a5e5-54c701d62c93
   tfo: false
   udp: true
   ip-version: ipv4-prefer
@@ -2180,12 +1367,28 @@ proxies:
   servername: yahoo.com
   client-fingerprint: chrome
   reality-opts:
-    public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
-    short-id: 0e
+    public-key: vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng
+    short-id: 69a2
+  network: tcp
+- name: tv2rayrr_13
+  type: vless
+  server: 156.229.161.107
+  port: 10001
+  uuid: 9c79aceb-4649-44ea-9698-b5e9ecf6d6da
+  tfo: false
+  udp: true
+  ip-version: ipv4-prefer
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.icloud.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 4jNz4Bw-FZlaX-WtfAdwK0hegY28W_k8AttGd-7hZn4
+    short-id: fb2c6678
   network: tcp
 - name: tv2rayrr_14
   type: vless
-  server: youtube.happvpn.com
+  server: lt.srv.happvpn.com
   port: 443
   uuid: d2de6d6d-4735-4fe3-b4b6-00a81ced69f5
   tfo: false
@@ -2201,82 +1404,82 @@ proxies:
   network: tcp
 - name: tv2rayrr_15
   type: vless
-  server: 47.245.38.111
+  server: 213.176.16.74
   port: 443
-  uuid: 86b414b6-966e-4f6d-ab16-32049ef732d3
+  uuid: d7fbe279896e40118c23d15fe537dddd
   tfo: false
   udp: true
   ip-version: ipv4-prefer
+  flow: xtls-rprx-vision
   tls: true
-  servername: www.autodesk.com
+  servername: apple.com
   client-fingerprint: chrome
   reality-opts:
-    public-key: y167aJhpgWWjltY4UCir_uu8Mj__Hkc1W4etD0QXYH4
-    short-id: 860705e716cbe6ed
+    public-key: XNL_xB1Spd09CQQQGnjeMPPK6_tPnFuYI_nLKk3EiWc
+    short-id: aabbccdd
   network: tcp
 - name: tv2rayrr_16
   type: vless
-  server: 188.253.21.106
+  server: 91.220.8.177
   port: 443
-  uuid: 247a22e1-0795-4852-9bdd-a65ac1078034
+  uuid: 0eb0019b66404203a7e07701f61bf766
   tfo: false
   udp: true
   ip-version: ipv4-prefer
   flow: xtls-rprx-vision
   tls: true
-  servername: yahoo.com
-  client-fingerprint: firefox
+  servername: m.vk.com
+  client-fingerprint: chrome
   reality-opts:
-    public-key: 4JvLKnuuAs4h0cQ1j_S4SAuXQQ579D7Wr1sGBjmH-Ws
-    short-id: 73d3fec4
+    public-key: n0e-y_JNPYLzhJkFuhlq6-k1lgUG43cmiQXkP2Pv_wc
+    short-id: aabbccdd
   network: tcp
 - name: tv2rayrr_17
   type: vless
-  server: 77.110.119.225
-  port: 443
-  uuid: 4819860c-0e62-4804-9c59-967e5c2bed7a
+  server: 77.91.68.70
+  port: 55983
+  uuid: f667a096-5231-4cfb-8759-92bb32473139
   tfo: false
   udp: true
   ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
   tls: true
-  servername: st.ozone.ru
+  servername: yahoo.com
   client-fingerprint: chrome
   reality-opts:
-    public-key: hnec5SxCD6Os-u0FNi_YS5CML1a_oWb0niZJ1mGuFBo
-    short-id: 07e904766d29b958
+    public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
+    short-id: 0e
   network: tcp
 - name: tv2rayrr_18
   type: vless
-  server: 154.12.179.154
-  port: 2501
-  uuid: 1555ff9a-837c-4d7f-9b5d-0794c9c31e71
+  server: nl2.srv.happvpn.com
+  port: 443
+  uuid: d2de6d6d-4735-4fe3-b4b6-00a81ced69f5
   tfo: false
   udp: true
   ip-version: ipv4-prefer
   flow: xtls-rprx-vision
   tls: true
-  servername: amazon.com
-  client-fingerprint: random
+  servername: cdnjs.com
+  client-fingerprint: chrome
   reality-opts:
-    public-key: N6DfpkpFe0ykYu9ofqjB5jXIMFfsf9T2Ry0L2-WcfAw
-    short-id: b793cdadb1c785
+    public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
+    short-id: 4c02bbbfa833b3b6
   network: tcp
 - name: tv2rayrr_19
   type: vless
-  server: 31.6.1.187
-  port: 25607
-  uuid: c8451b58-6337-4294-ba28-1a33731331a1
+  server: de.shvurgceo.online
+  port: 14357
+  uuid: 006f752c-42fe-41dd-a224-e2f7c48b72a9
   tfo: false
   udp: true
   ip-version: ipv4-prefer
   flow: xtls-rprx-vision
   tls: true
-  servername: store.steampowered.com
+  servername: vk.com
   client-fingerprint: chrome
   reality-opts:
-    public-key: j5CgrKQgkDV5bC5Y4pB0lGNupDYxklIDgge4HL1X3zE
-    short-id: '84'
+    public-key: DvKMFkm82Jkp6Jk_7pXYb0fMXq1MsLMNxDeQfcCSbEA
+    short-id: ab12cd34
   network: tcp
 - name: tv2rayrr_20
   type: vless
@@ -2296,37 +1499,80 @@ proxies:
   network: tcp
 - name: tv2rayrr_21
   type: vless
-  server: lt.srv.happvpn.com
+  server: fr.soreanapanel.com
   port: 443
-  uuid: d2de6d6d-4735-4fe3-b4b6-00a81ced69f5
+  uuid: d2cec382-c701-4d66-8891-5945ad87d8a1
   tfo: false
   udp: true
   ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
   tls: true
-  servername: cdnjs.com
+  servername: tgju.org
   client-fingerprint: chrome
   reality-opts:
-    public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
-    short-id: 4c02bbbfa833b3b6
+    public-key: liR-hmXj77ENkmMXhMnIZ1VLK9Gszaob1l_3U3O7Axs
+    short-id: 33d92e960cb19e71
   network: tcp
 - name: tv2rayrr_22
   type: vless
-  server: fi.srv.happvpn.com
-  port: 443
-  uuid: d2de6d6d-4735-4fe3-b4b6-00a81ced69f5
+  server: 45.134.12.47
+  port: 31203
+  uuid: 87d1f4b2-83e7-4125-8d62-5d376871fd41
   tfo: false
   udp: true
   ip-version: ipv4-prefer
   flow: xtls-rprx-vision
   tls: true
-  servername: cdnjs.com
-  client-fingerprint: chrome
+  servername: vt-1.ozone.ru
+  client-fingerprint: random
   reality-opts:
-    public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
-    short-id: 4c02bbbfa833b3b6
+    public-key: tN1ZYDEnM0t_V59FGQSpiq56sOpDo8JZ25Epgg-Z9kg
+    short-id: ab12cd34
   network: tcp
 - name: tv2rayrr_23
+  type: vless
+  server: 47.245.38.111
+  port: 443
+  uuid: 86b414b6-966e-4f6d-ab16-32049ef732d3
+  tfo: false
+  udp: true
+  ip-version: ipv4-prefer
+  tls: true
+  servername: www.autodesk.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: y167aJhpgWWjltY4UCir_uu8Mj__Hkc1W4etD0QXYH4
+    short-id: 860705e716cbe6ed
+  network: tcp
+- name: tv2rayrr_24
+  type: vless
+  server: 178.239.125.31
+  port: 39735
+  uuid: 60e7e018-ee6a-48b1-9625-c4d4276935b3
+  tfo: false
+  udp: true
+  ip-version: ipv4-prefer
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.yahoo.co.jp
+  client-fingerprint: chrome
+  network: tcp
+- name: tv2rayrr_25
+  type: vless
+  server: 154.12.179.154
+  port: 2501
+  uuid: 1555ff9a-837c-4d7f-9b5d-0794c9c31e71
+  tfo: false
+  udp: true
+  ip-version: ipv4-prefer
+  flow: xtls-rprx-vision
+  tls: true
+  servername: amazon.com
+  client-fingerprint: random
+  reality-opts:
+    public-key: N6DfpkpFe0ykYu9ofqjB5jXIMFfsf9T2Ry0L2-WcfAw
+    short-id: b793cdadb1c785
+  network: tcp
+- name: tv2rayrr_26
   type: vless
   server: tunnyl.ru
   port: 443
@@ -2342,36 +1588,7 @@ proxies:
     public-key: llUN5iiAQwwKwiAp7zCwfU8wNz7F4lg__e9Qdv_gkWs
     short-id: 0f1d6a
   network: tcp
-- name: tv2rayrr_24
-  type: vless
-  server: 156.244.41.221
-  port: 443
-  uuid: 0033fda5-029e-4de3-acea-3bd45a1912e2
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: aws.amazon.com
-  client-fingerprint: chrome
-  network: tcp
-- name: tv2rayrr_25
-  type: vless
-  server: 40.233.83.110
-  port: 26113
-  uuid: cfe032e4-1bc3-454f-9d09-301b0aea08ff
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: www.yahoo.com
-  client-fingerprint: random
-  reality-opts:
-    public-key: GUcD8LK1DFNuVun5yhsqeEego_p3PF2yIdvE2KY2Nng
-    short-id: 1fbd20fd
-  network: tcp
-- name: tv2rayrr_26
+- name: tv2rayrr_27
   type: vless
   server: usa.srv.happvpn.com
   port: 443
@@ -2387,78 +1604,51 @@ proxies:
     public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
     short-id: 4c02bbbfa833b3b6
   network: tcp
-- name: tv2rayrr_27
-  type: vless
-  server: 38.180.17.232
-  port: 443
-  uuid: 96eb0aac-b747-4f3c-8c30-d2ff7ec7415c
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: google.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: h_qOyi3Y79o7yw9WaMZY1CxtDlu4f6F1bIxqYTH11R4
-    short-id: 3e
-  network: tcp
 - name: tv2rayrr_28
   type: vless
-  server: 213.176.16.74
+  server: fi.srv.happvpn.com
   port: 443
-  uuid: d7fbe279896e40118c23d15fe537dddd
+  uuid: d2de6d6d-4735-4fe3-b4b6-00a81ced69f5
   tfo: false
   udp: true
   ip-version: ipv4-prefer
   flow: xtls-rprx-vision
   tls: true
-  servername: apple.com
+  servername: cdnjs.com
   client-fingerprint: chrome
   reality-opts:
-    public-key: XNL_xB1Spd09CQQQGnjeMPPK6_tPnFuYI_nLKk3EiWc
-    short-id: aabbccdd
+    public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
+    short-id: 4c02bbbfa833b3b6
   network: tcp
 - name: v2ray_extractor
   type: vless
-  server: 138.124.186.80
-  port: 443
-  uuid: e346f220-4ca4-4f69-a66b-52e992b3b625
+  server: 140.238.100.35
+  port: 40721
+  uuid: bf3e8944-8d26-47de-8748-b9aa74cce974
   tfo: false
   udp: true
   ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
   tls: true
-  servername: www.fh-aachen.de
+  servername: yahoo.com
   client-fingerprint: chrome
+  reality-opts:
+    public-key: TUZgwzcTvoROSbgnqMh3WorXVMxQNIF2zsEM39FQbyk
+    short-id: df8611c07d
   network: tcp
 - name: v2ray_extractor_2
   type: vless
-  server: 89.149.243.207
+  server: 193.233.127.219
   port: 443
-  uuid: 6e342451-814c-4f51-803c-59107f0540f2
+  uuid: 6fd9f786-d974-49d0-b5c4-397678de69a2
   tfo: false
   udp: true
   ip-version: ipv4-prefer
   flow: xtls-rprx-vision
   tls: true
-  servername: www.apple.com
+  servername: www.cybo.com
   client-fingerprint: chrome
   network: tcp
 - name: v2ray_extractor_3
-  type: vless
-  server: 80.253.249.251
-  port: 443
-  uuid: d1209ffb-c159-48d5-b40d-542ce11fc768
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  flow: xtls-rprx-vision
-  tls: true
-  servername: apple.com
-  client-fingerprint: chrome
-  network: tcp
-- name: v2ray_extractor_4
   type: vless
   server: 89.149.243.213
   port: 443
@@ -2471,7 +1661,7 @@ proxies:
   servername: www.apple.com
   client-fingerprint: chrome
   network: tcp
-- name: v2ray_extractor_5
+- name: v2ray_extractor_4
   type: vless
   server: 38.60.212.251
   port: 29059
@@ -2487,32 +1677,20 @@ proxies:
     public-key: V_eMkcHXf237wGyfggMHHRvQqw51rW1UJPEIw_T2IE4
     short-id: 6ba85179e30d4fc2
   network: tcp
-- name: v2ray_extractor_6
+- name: v2ray_extractor_5
   type: vless
-  server: 193.233.127.219
+  server: 138.124.186.80
   port: 443
-  uuid: 6fd9f786-d974-49d0-b5c4-397678de69a2
+  uuid: e346f220-4ca4-4f69-a66b-52e992b3b625
   tfo: false
   udp: true
   ip-version: ipv4-prefer
   flow: xtls-rprx-vision
   tls: true
-  servername: www.cybo.com
+  servername: www.fh-aachen.de
   client-fingerprint: chrome
   network: tcp
-- name: v2ray_extractor_7
-  type: vless
-  server: 94.131.105.12
-  port: 8080
-  uuid: a001c9c4-ece2-4dc1-9658-cbad90fcd2e0
-  tfo: false
-  udp: true
-  ip-version: ipv4-prefer
-  tls: true
-  servername: max.ru
-  client-fingerprint: chrome
-  network: tcp
-- name: v2ray_extractor_8
+- name: v2ray_extractor_6
   type: vless
   server: usadt01.jumperservice.com
   port: 19001
@@ -2525,22 +1703,20 @@ proxies:
   servername: www.speedtest.org
   client-fingerprint: chrome
   network: tcp
-- name: v2ray_extractor_9
+- name: v2ray_extractor_7
   type: vless
-  server: 140.238.100.35
-  port: 40721
-  uuid: bf3e8944-8d26-47de-8748-b9aa74cce974
+  server: node-nl-main.amnesia.pw
+  port: 443
+  uuid: d8e5386f-5b56-4a5a-87e2-26fecd735356
   tfo: false
   udp: true
   ip-version: ipv4-prefer
+  flow: xtls-rprx-vision
   tls: true
-  servername: yahoo.com
+  servername: ozon.ru
   client-fingerprint: chrome
-  reality-opts:
-    public-key: TUZgwzcTvoROSbgnqMh3WorXVMxQNIF2zsEM39FQbyk
-    short-id: df8611c07d
   network: tcp
-- name: v2ray_extractor_10
+- name: v2ray_extractor_8
   type: vless
   server: us3.ultima.foundation
   port: 22230
@@ -2551,6 +1727,32 @@ proxies:
   flow: xtls-rprx-vision
   tls: true
   servername: apple.com
+  client-fingerprint: chrome
+  network: tcp
+- name: v2ray_extractor_9
+  type: vless
+  server: 80.253.249.251
+  port: 443
+  uuid: d1209ffb-c159-48d5-b40d-542ce11fc768
+  tfo: false
+  udp: true
+  ip-version: ipv4-prefer
+  flow: xtls-rprx-vision
+  tls: true
+  servername: apple.com
+  client-fingerprint: chrome
+  network: tcp
+- name: v2ray_extractor_10
+  type: vless
+  server: 3.fr.vles.space
+  port: 23151
+  uuid: 7f37b28b-cfcb-4c2a-ae41-8f2ddc9325dd
+  tfo: false
+  udp: true
+  ip-version: ipv4-prefer
+  flow: xtls-rprx-vision
+  tls: true
+  servername: cms-res-web.online.sberbank.ru
   client-fingerprint: chrome
   network: tcp
 - name: v2ray_extractor_11
@@ -2571,7 +1773,7 @@ proxies:
   network: tcp
 - name: v2ray_extractor_12
   type: vless
-  server: 3.fr.vles.space
+  server: 138.124.70.90
   port: 23151
   uuid: 7f37b28b-cfcb-4c2a-ae41-8f2ddc9325dd
   tfo: false
@@ -2677,57 +1879,6 @@ proxy-groups:
   - oneclickvpnkeys_45
   - oneclickvpnkeys_46
   - oneclickvpnkeys_47
-  - oneclickvpnkeys_48
-  - oneclickvpnkeys_49
-  - oneclickvpnkeys_50
-  - oneclickvpnkeys_51
-  - oneclickvpnkeys_52
-  - oneclickvpnkeys_53
-  - oneclickvpnkeys_54
-  - oneclickvpnkeys_55
-  - oneclickvpnkeys_56
-  - oneclickvpnkeys_57
-  - oneclickvpnkeys_58
-  - oneclickvpnkeys_59
-  - oneclickvpnkeys_60
-  - oneclickvpnkeys_61
-  - oneclickvpnkeys_62
-  - oneclickvpnkeys_63
-  - oneclickvpnkeys_64
-  - oneclickvpnkeys_65
-  - oneclickvpnkeys_66
-  - oneclickvpnkeys_67
-  - oneclickvpnkeys_68
-  - oneclickvpnkeys_69
-  - oneclickvpnkeys_70
-  - oneclickvpnkeys_71
-  - oneclickvpnkeys_72
-  - oneclickvpnkeys_73
-  - oneclickvpnkeys_74
-  - oneclickvpnkeys_75
-  - oneclickvpnkeys_76
-  - oneclickvpnkeys_77
-  - oneclickvpnkeys_78
-  - oneclickvpnkeys_79
-  - oneclickvpnkeys_80
-  - oneclickvpnkeys_81
-  - oneclickvpnkeys_82
-  - oneclickvpnkeys_83
-  - oneclickvpnkeys_84
-  - oneclickvpnkeys_85
-  - oneclickvpnkeys_86
-  - oneclickvpnkeys_87
-  - oneclickvpnkeys_88
-  - oneclickvpnkeys_89
-  - oneclickvpnkeys_90
-  - oneclickvpnkeys_91
-  - oneclickvpnkeys_92
-  - oneclickvpnkeys_93
-  - oneclickvpnkeys_94
-  - oneclickvpnkeys_95
-  - oneclickvpnkeys_96
-  - oneclickvpnkeys_97
-  - oneclickvpnkeys_98
   - tv2rayrr
   - tv2rayrr_2
   - tv2rayrr_3
@@ -2849,57 +2000,6 @@ proxy-groups:
   - oneclickvpnkeys_45
   - oneclickvpnkeys_46
   - oneclickvpnkeys_47
-  - oneclickvpnkeys_48
-  - oneclickvpnkeys_49
-  - oneclickvpnkeys_50
-  - oneclickvpnkeys_51
-  - oneclickvpnkeys_52
-  - oneclickvpnkeys_53
-  - oneclickvpnkeys_54
-  - oneclickvpnkeys_55
-  - oneclickvpnkeys_56
-  - oneclickvpnkeys_57
-  - oneclickvpnkeys_58
-  - oneclickvpnkeys_59
-  - oneclickvpnkeys_60
-  - oneclickvpnkeys_61
-  - oneclickvpnkeys_62
-  - oneclickvpnkeys_63
-  - oneclickvpnkeys_64
-  - oneclickvpnkeys_65
-  - oneclickvpnkeys_66
-  - oneclickvpnkeys_67
-  - oneclickvpnkeys_68
-  - oneclickvpnkeys_69
-  - oneclickvpnkeys_70
-  - oneclickvpnkeys_71
-  - oneclickvpnkeys_72
-  - oneclickvpnkeys_73
-  - oneclickvpnkeys_74
-  - oneclickvpnkeys_75
-  - oneclickvpnkeys_76
-  - oneclickvpnkeys_77
-  - oneclickvpnkeys_78
-  - oneclickvpnkeys_79
-  - oneclickvpnkeys_80
-  - oneclickvpnkeys_81
-  - oneclickvpnkeys_82
-  - oneclickvpnkeys_83
-  - oneclickvpnkeys_84
-  - oneclickvpnkeys_85
-  - oneclickvpnkeys_86
-  - oneclickvpnkeys_87
-  - oneclickvpnkeys_88
-  - oneclickvpnkeys_89
-  - oneclickvpnkeys_90
-  - oneclickvpnkeys_91
-  - oneclickvpnkeys_92
-  - oneclickvpnkeys_93
-  - oneclickvpnkeys_94
-  - oneclickvpnkeys_95
-  - oneclickvpnkeys_96
-  - oneclickvpnkeys_97
-  - oneclickvpnkeys_98
   - tv2rayrr
   - tv2rayrr_2
   - tv2rayrr_3
