@@ -37,6 +37,9 @@ jobs:
 
       - name: Run app-grok.py
         run: python app-grok.py
+        
+      - name: Run app-claude.py
+        run: python app-claude.py
 
       - name: Commit generated files (if changed)
         run: |
