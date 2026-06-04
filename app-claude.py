@@ -250,7 +250,7 @@ def parse_args() -> argparse.Namespace:
     )
     p.add_argument("-u", "--urls", nargs="+", metavar="URL",
                    help="Source URLs (overrides built-in defaults)")
-    p.add_argument("-o", "--output", default=os.path.join("files", "clash_best.yaml"),
+    p.add_argument("-o", "--output", default=os.path.join("files", "clash_claude.yaml"),
                    metavar="PATH", help="Output YAML path")
     p.add_argument("--no-tun", action="store_true",
                    help="Disable TUN mode")
